@@ -2,13 +2,14 @@
 @import '../fonts/Bebasneue/stylesheet.css';
 @import '../fonts/FuturaPT/stylesheet.css';
 @import '../fonts/Montserrat/stylesheet.css';
+
 * {
     box-sizing: border-box;
 }
 
 body {
     border: 15px solid #4E5AFF;
-    font-family: 'Montserrat', 'Bebas Neue Cyrillic', 'Bebas Neue','Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Bebas Neue Cyrillic', 'Bebas Neue', 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
@@ -17,9 +18,26 @@ body {
     background-color: white;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+
+hr{
+    width: 109px;
+    height: 8px;
+    border: none;
+
+    background: #3A5AFF;
 }
 
 .container {
