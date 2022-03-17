@@ -42,12 +42,31 @@
                     </li>
                 </ul>
             </nav>
-            <a href="#" class="header__login">Войти</a>
+            <a href="#" class="header__login" id="LogIn">Войти</a>
         </div>
     </header>
     <!-- HEADER END -->
 
+
     <main>
+
+        <!-- ! Модалку переделать полностью -->
+        <div id="myModal" class="modal">
+            
+            <!-- Модальное содержание -->
+            <div class="modal-content">
+                <img src="./img/modal-img.png" alt="modal-img">
+                    <form class="modal-form" action="post">
+                        <p class="modal-title">Авторизация</p>
+                        <input class="modal-input" type="text" placeholder="Логин">
+                        <input class="modal-input" type="text" placeholder="Пароль">
+                        <button class="modal-btn" type="submit">Войти</button>
+                    </form>
+                    <!-- <span class="close">&times;</span> -->
+            </div>
+
+        </div>
+        <!-- ! -->
 
         <!-- PREVIEW -->
         <section class="preview">
@@ -282,6 +301,7 @@
     </footer>
     <!-- FOOTER END -->
 
+    <script src="./js/modal.js"></script>
     <script src="./js/accordion.js"></script>
 </body>
 
